@@ -1,0 +1,30 @@
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 10vw;
+  padding-bottom: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@media (min-width: 550px) {
+  .App-main {
+    padding: 0 4vw 100px 4vw;
+  }
+}
+
+@media (min-width: 750px) {
+  .App-main {
+    padding: 0 6vw 100px 6vw;
+  }
+}
+

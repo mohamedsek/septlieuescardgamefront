@@ -1,0 +1,40 @@
+.Cart-container {
+    width: 150px;
+    position: absolute;
+    transform-origin: bottom left;
+    animation: forwards fadeIn 0.5s;
+    opacity: 0;
+}
+
+.Cart-img {
+    width: 100%;
+}
+
+
+@media (max-width: 550px) {
+    .Cart-container {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .Cart-container {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Cart-container {
+        width: 16vw;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
